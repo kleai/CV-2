@@ -1,0 +1,213 @@
+
+/* Navbar Section  */
+
+.navbar {
+  padding: 0 0 18px;
+}
+.navbar-brand {
+  padding: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: 'Ubuntu';
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.title {
+  position: relative;
+  background-color: rgb(97, 97, 97);
+  height: 39em;
+  z-index: 2;
+}
+
+.head-1 {
+  position: relative;
+  top: 7rem;
+  left:7rem;
+  color: #fff;
+  font-size: 320%;
+  width: 14em;
+  font-family: serif;
+}
+.head-2 {
+  position: relative;
+  top: 7rem;
+  left:7rem;
+  color: #fff;
+  font-size: 320%;
+  width: 14rem;
+  font-family: serif;
+  margin-left: 12rem;
+}
+.info {
+  position: relative;
+  top: 8rem;
+  left: 7rem;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 25px;
+  width: 27rem;
+  border-top: 10px;
+  border-bottom: 10px;
+}
+.img-circle {
+  position: absolute;
+  top: 3rem;
+  left: 55rem;
+  width: 30%;
+  transform: rotate(-30deg);
+  border-radius: 5%;
+  border-top-right-radius: 1%;
+  z-index: 0;
+}
+
+/* Centered text */
+
+.round {
+  padding: 3rem 0 1rem;
+  position: relative;
+  background: linear-gradient(90deg,#a6a6a6, #ffffff);
+  z-index: 3;
+}
+.centered {
+  font-size: 2rem;
+  font-family: serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 10px;
+  color: #545454;
+  width: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: 5rem;
+  text-shadow: 3px 2px 0.8px #998b98;
+  transform: translate(-50%, -50%);
+}
+
+.border-round {
+  position: relative;
+  text-align: center;
+}
+
+/* Areas Of Experties */
+/* Web Design & Computer Programming */
+span {
+  position: relative;
+  left: -10px;
+}
+.mock {
+  font-family: serif;
+  color: #545454;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 35px;
+  margin:2rem;
+  margin-left: 4rem;
+
+}
+.p1-mock {
+  font-family: 'Cabin Condensed', sans-serif;
+  color: #545454;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-left: 2rem;
+  width: 35em;
+}
+
+.flash-img {
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+/* Branding mock  */
+
+.branding-pic {
+margin: 3% 15% 7%;
+}
+
+/* Motorcycle Mechanic */
+
+.engine {
+position: relative;
+left: 2em;
+top: 3em;
+}
+/* Multilingual */
+
+
+
+
+
+/* Retails & Marketing */
+.global {
+  margin-top: 15rem;
+}
+
+.global-pic {
+  position: relative;
+  left: 3em;
+
+}
+
+.irr{
+  position: relative;
+  left: 4em;
+  top: 0;
+}
+.rus {
+position: relative;
+left: 6em;
+top: 2em;
+}
+.ger {
+  position: relative;
+  left: 4em;
+  top: 2em;
+}
+.usa{
+  position: relative;
+  left: 6em;
+  top: 4em;
+}
+/* Footer Section */
+#footer {
+  margin-top: 20rem;
+  background-color: rgb(97, 97, 97);
+  text-align: center;
+}
+.icon{
+  margin: 2%;
+}
+
+.fa-instagram:hover,.fa-envelope:hover,.fa-twitter:hover,.fa-facebook-f:hover,.fa-linkedin:hover{
+  color: gold;
+}
+
+ /* for width < 1028px  */
+
+@media (max-width: 1028px)
+{
+
+.irr {
+  width: 20%;}
+.rus {
+  width: 20%;}
+.ger {
+  width: 20%;}
+.usa {
+  width: 20%;}
+
+.global-mock {
+padding-top: 5rem;
+}
+}
